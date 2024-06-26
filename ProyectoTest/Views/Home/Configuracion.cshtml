@@ -1,0 +1,328 @@
+﻿
+@{
+    ViewBag.Title = "Configuracion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i> Configuracion
+    </div>
+    <div class="card-body">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <button id="btnApagar" class="btn btn-danger" type="button" title="Pone todos los productos INVISIBLES">Apagar Tienda</button>
+                <button id="btnEncender" class="btn btn-success" type="button" title="Pone todos los productos VISIBLES">Encender Tienda</button>
+            </div>
+        </div>
+        <hr />
+        <table id="tabla2" class="display responsive" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Apertura D</th>
+                    <th>Cierre D</th>
+                    <th>Apertura R</th>
+                    <th>Cierre R</th>
+                    <th>Compra Mínima</th>
+                    <th>Costo Envío</th>
+                    <th>Tarjeta</th>
+                    <th>POS</th>
+                    <th>Efectivo</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<div class="modal fade" id="FormModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title" id="exampleModalLabel">Configuración</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input id="txtid" type="hidden" value="1" />
+                <form id="formNivel">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="txtdescripcion">Apertura Recojo</label>
+                                <input type="text" class="form-control required" id="txtAperturaR" name="apertura" autocomplete="off" maxlength="5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="txtdescripcion">Cierre Recojo</label>
+                                <input type="text" class="form-control required" id="txtCierreR" name="cierre" autocomplete="off" maxlength="5">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="txtdescripcion">Apertura Delivery</label>
+                                <input type="text" class="form-control required" id="txtAperturaD" name="apertura" autocomplete="off" maxlength="5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="txtdescripcion">Cierre Delivery</label>
+                                <input type="text" class="form-control required" id="txtCierreD" name="cierre" autocomplete="off" maxlength="5">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="txtdescripcion">Compra Minima</label>
+                                <input type="text" class="form-control required" id="txtMinima" name="apertura" autocomplete="off" title="Ingrese monto (puede incluir hasta 2 decimales)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="txtdescripcion">Costo Envío</label>
+                                <input type="text" class="form-control required" id="txtEnvio" name="cierre" autocomplete="off" title="Ingrese monto (puede incluir hasta 2 decimales)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="cboEstado">Tarjeta</label>
+                                <select id="cboTarjeta" class="form-select">
+                                    <option value="1">Activo</option>
+                                    <option value="0">No Activo</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="cboEstado">POS</label>
+                                <select id="cboPos" class="form-select">
+                                    <option value="1">Activo</option>
+                                    <option value="0">No Activo</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="cboEstado">Efectivo</label>
+                                <select id="cboEfectivo" class="form-select">
+                                    <option value="1">Activo</option>
+                                    <option value="0">No Activo</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" onclick="Guardar()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        var tabladata;
+
+        $(document).ready(function () {
+
+            tabladata = $('#tabla2').DataTable({
+                responsive: true,
+                "ajax": {
+                    "url": '@Url.Action("ListarConfiguracion", "Home")',
+                    "type": "GET",
+                    "datatype": "json"
+                },
+                "columns": [
+                    { "data": "HoraAperturaD" },
+                    { "data": "HoraCierreD" },
+                    { "data": "HoraAperturaR" },
+                    { "data": "HoraCierreR" },
+                    { "data": "PrecioMinimo" },
+                    { "data": "CostoEnvio" },
+                    {
+                        "data": "PagoTarjeta", "render": function (data) {
+                            if (data) {
+                                return '<span class="badge bg-success">Activo</span>';
+                            } else {
+                                return '<span class="badge bg-danger">No Activo</span>';
+                            }
+                        }
+                    },
+                    {
+                        "data": "PagoPOS", "render": function (data) {
+                            if (data) {
+                                return '<span class="badge bg-success">Activo</span>';
+                            } else {
+                                return '<span class="badge bg-danger">No Activo</span>';
+                            }
+                        }
+                    },
+                    {
+                        "data": "PagoEfectivo", "render": function (data) {
+                            if (data) {
+                                return '<span class="badge bg-success">Activo</span>';
+                            } else {
+                                return '<span class="badge bg-danger">No Activo</span>';
+                            }
+                        }
+                    },
+                    {
+                        "data": "Id", "render": function (data, type, row, meta) {
+
+                            return $("<button>").addClass("btn btn-primary btn-editar btn-sm").append(
+                                $("<i>").addClass("fas fa-pen")
+                            ).attr({ "data-informacion": JSON.stringify(row) })[0].outerHTML;
+
+                        },
+                        "width": "90px"
+                    }
+                ],
+                "language": {
+                    "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
+                }
+            });
+
+            $("#btnApagar").on("click", function () {
+            
+            Swal.fire({
+                title: '¿Estás seguro de apagar la tienda?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Sí',
+                cancelButtonText: 'No'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                       
+                        $.post('@Url.Action("ApagarTienda", "Home")', function () {
+                            Swal.fire({
+                                title: 'Tienda Apagada',
+                                icon: 'success',
+                                showConfirmButton: false,
+                                timer: 3000, 
+                                iconColor: 'red'
+                            });
+                        });
+                    }
+                });
+            });
+
+            $("#btnEncender").on("click", function () {
+                    $.post('@Url.Action("EncenderTienda", "Home")', function () {
+                   
+                        Swal.fire({
+                            title: 'Tienda Encendida',
+                            icon: 'success',
+                            showConfirmButton: false,
+                            timer: 3000 
+                        });
+                    });
+            });
+            //2
+            $(document).on('click', '.btn-editar', function (event) {
+                var json = $(this).data("informacion")
+
+                abrirModal2(json)
+            });
+
+            function abrirModal2(json) {
+                $("#txtAperturaR").val("");
+                $("#txtCierreR").val("");
+                $("#txtAperturaD").val("");
+                $("#txtCierreD").val("");
+                $("#txtMinima").val("");
+                $("#txtEnvio").val("");
+                $("#cboTarjeta").val(1);
+                $("#cboPos").val(1);
+                $("#cboEfectivo").val(1);
+                $("#txtid").val(1);
+
+                if (json != null) {
+                    $("#txtAperturaR").val(json.HoraAperturaR);
+                    $("#txtCierreR").val(json.HoraCierreR);
+                    $("#txtAperturaD").val(json.HoraAperturaD);
+                    $("#txtCierreD").val(json.HoraCierreD);
+                    $("#txtMinima").val(json.PrecioMinimo);
+                    $("#txtEnvio").val(json.CostoEnvio);
+                    $("#cboTarjeta").val(json.PagoTarjeta == true ? 1 : 0);
+                    $("#cboPos").val(json.PagoPOS == true ? 1 : 0);
+                    $("#cboEfectivo").val(json.PagoEfectivo == true ? 1 : 0);
+                    $("#txtid").val(json.Id);
+                }
+                $('#FormModal2').modal('show');
+            }
+
+
+        });
+
+        function Guardar() {
+            var request = {
+                objeto: {
+
+                    HoraAperturaR: $("#txtAperturaR").val(),
+                    HoraCierreR: $("#txtCierreR").val(),
+                    HoraAperturaD: $("#txtAperturaD").val(),
+                    HoraCierreD: $("#txtCierreD").val(),
+                    PrecioMinimo: $("#txtMinima").val(),
+                    CostoEnvio: $("#txtEnvio").val(),
+                    PagoTarjeta: parseInt($("#cboTarjeta").val()) == 1 ? true : false,
+                    PagoPOS: parseInt($("#cboPos").val()) == 1 ? true : false,
+                    PagoEfectivo: parseInt($("#cboEfectivo").val()) == 1 ? true : false
+
+
+                }
+            }
+
+            jQuery.ajax({
+                url: '@Url.Action("GuardarConfiguracion", "Home")',
+                type: "POST",
+                data: JSON.stringify(request),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+
+                    if (data.resultado) {
+                        tabladata.ajax.reload();
+                        $('#FormModal2').modal('hide');
+                    } else {
+                        alert("No se pudo guardar los cambios")
+                        //swal("Mensaje", "No se pudo guardar los cambios", "warning")
+                    }
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+
+                },
+            });
+
+
+        }
+
+    </script>
+}
+

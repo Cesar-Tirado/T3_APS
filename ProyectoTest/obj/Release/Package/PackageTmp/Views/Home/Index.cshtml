@@ -1,0 +1,623 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<style>
+    body {
+        background-color: #f7f7f7;
+    }
+    #boton01 .btn {
+        font-size: 12px ;
+        margin:2px;
+    }
+
+    #BusquedaFecha {
+        justify-content:center;
+        align-content:center;
+        align-items:center;
+        font-size: 14px;       
+    }
+
+    #BusquedaFecha .btn {
+        font-size: 12px;
+    }
+    .form-control{
+        height:32px;
+    }
+    .input-group .btn {
+        height: 32px;
+    }
+    .compraHtml {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .precioderecha {
+        text-align: right;
+        padding-right: 15px;
+    }
+
+    .espaciado {
+        padding: 5px;
+    }
+
+
+</style>
+<div class="container-fluid w-100 p-0 m-0">
+    <br />
+    <h3 class="my-2 text-center" style="color: #333; text-decoration: underline;">Gestión de Pedidos</h3>
+    <br />
+    <div class="row">
+
+        <div class="col-md-6 col-12 d-flex align-items-center justify-content-md-end justify-content-start">
+            <div class="input-group">
+                <input type="text" class="form-control" id="txtBusqueda" placeholder="Buscar por nombre">
+                <button class="btn btn-secondary me-2" style="background-color: #272727;" type="button" id="btnBuscar">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button id="mostrarContenido" class="btn btn-secondary  me-2" style="background-color: #272727;">
+                    <i class="fas fa-filter"></i> <!-- Icono de filtro -->
+                </button>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" style="background-color: #272727;" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="estado-btn dropdown-item bg-warning text-dark" href="#" data-estado="">Todos</a></li>
+                        <li><a class="estado-btn dropdown-item bg-success text-white" href="#" data-estado="Aceptado">Aceptados</a></li>
+                        <li><a class="estado-btn dropdown-item bg-danger text-white" href="#" data-estado="Rechazado">Rechazados</a></li>
+                        <li><a class="estado-btn dropdown-item bg-light text-dark" href="#" data-estado="Pendiente">Pendientes</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <div id="contenido" style="display: none;">
+        <div class="row d-flex mb-2 justify-content-between align-items-center">
+
+            <div class="col-12 col-md-5 mb-3 mb-md-0" id="BusquedaFecha">
+                <br />
+                <div class="d-flex align-items-center">
+                    <div>
+                        <label for="fechaInicio">Fecha de inicio:</label>
+                        <input type="date" id="fechaInicio" class="form-control mt-2"> <!-- Añadir clase de margen superior -->
+                    </div>
+                    <div class="ml-2">
+                        <label for="fechaFin">Fecha de fin:</label>
+                        <input type="date" id="fechaFin" class="form-control mt-2"> <!-- Añadir clase de margen superior -->
+                    </div>
+                    <div class="d-flex align-items-start ml-2" style="margin-top: auto;">
+                        <button id="btnFiltrarFechaIF" class="btn btn-primary mt-2 mr-1">
+                            <i class="fas fas fa-search"></i> <!-- Icono de filtro -->
+                        </button>
+                        <button id="btnBorrarFiltro" class="btn btn-danger mt-2">
+                            <i class="fas fa-trash-alt"></i> <!-- Icono de basurero -->
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- HTML -->
+    <div id="ruedaCarga"></div>
+
+    <table class="table text-center justify-content-center">
+        <thead>
+            <tr>
+                <th scope="col"># </th>
+                <th scope="col"> Fecha</th>
+                <th scope="col">Hora</th>
+                <th scope="col">Estado</th>
+            </tr>
+        </thead>
+    </table>
+
+    <div class="row mt-2">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body bg-secondary p-2">
+                    <div class="accordion" id="accordion_articulos">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+
+    <script>
+
+        var nombreGlobal;
+        var correoGlobal;
+        //AGREGADO
+        function zeroFill(number, width) {
+            if (number.toString().length < width) {
+                return number;
+            }
+            return number + ""; // always return a string
+        }
+        document.getElementById("mostrarContenido").addEventListener("click", function () {
+            var contenido = document.getElementById("contenido");
+            if (contenido.style.display === "none") {
+                contenido.style.display = "block";
+            } else {
+                contenido.style.display = "none";
+            }
+        });
+
+        $(document).ready(function () {
+            // Obtener la fecha actual en el formato "YYYY-MM-DD"
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0'); // Enero es 0!
+            var yyyy = today.getFullYear();
+
+            today = yyyy + '-' + mm + '-' + dd;
+
+            // Establecer la fecha actual como valor predeterminado
+            $('#fechaInicio').val(today);
+            $('#fechaFin').val(today);
+        });
+
+        $(document).ready(function () {
+
+            jQuery.ajax({
+                url: '@Url.Action("ObtenerCompra", "Tienda")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+
+                    if (data.lista != null) {
+                        // Invertir la lista de compras para mostrar los nuevos primero
+                        var fechaCompraTextoFil;
+                        var reversedLista = data.lista.reverse();
+                        $.each(reversedLista, function (i, v) {
+                            var precioEnvio = 0.00;
+                            var tipoDePedido;
+                            var pedidoTipoTexto = v.Tipo;
+                            var fechaDeLaCompra = $("<div>").addClass("me-4 fecha-texto").text(v.FechaTexto);
+                            fechaDeLaCompra.hide();
+                            var accordion_item = $("<div>").addClass("accordion-item");
+                            nombreGlobal = v.Nombre;
+                            correoGlobal = v.Correo;
+                            var fechaHoy = obtenerFechaActualEnFormatoDePedidos();
+
+
+                            //Asi mostramos los pedidos solo de hoy
+                            $('.accordion-item').each(function () {
+                                var fechaComprasTexto = $(this).find('.fecha-compra').text().toLowerCase();
+                                if (fechaComprasTexto === fechaHoy) {
+                                    $(this).show();
+                                } else {
+                                    $(this).hide();
+                                }
+                            });
+
+                            var fechaCompra = new Date(v.FechaTexto);
+                            const hora = fechaCompra.getHours().toString().padStart(2, '0');
+                            const minutos = fechaCompra.getMinutes().toString().padStart(2, '0');
+                            const horaFormateada2 = `${hora}:${minutos}`;
+                            var estado = v.Estado.toLowerCase();
+                            var backgroundColor;
+
+                            if (estado === "aceptado") {
+                                backgroundColor = "#2ECC71";
+                            } else if (estado === "rechazado")
+                            {
+                                backgroundColor = "#E74C3C";
+                            } else
+                            {
+                                backgroundColor = "initial"; // Color de fondo por defecto
+                            }
+
+
+                            var accordion_header = $("<div>").addClass("accordion-header").append(
+
+                                $("<div>").addClass("accordion-button p-2 collapsed").css("background-color", backgroundColor).attr({ "data-bs-toggle": "collapse", "data-bs-target": "#collapse" + i, "aria-expanded": "false" }).append(
+                                    $("<div>").addClass("d-flex justify-content-between w-100").append(
+                                        $("<div>").text("N° " + zeroFill(v.IdCompra, 8)),
+                                        fechaDeLaCompra,//$("<div>").addClass("me-4 fecha-texto").text(v.FechaTexto),
+                                        $("<div>").addClass("me-4 fecha-compra").text(fechaCompra.toLocaleDateString()),
+                                        $("<div>").addClass("me-4").text(horaFormateada2),// Formatear fecha y hora
+                                        //$("<div>").addClass("me-4 cliente-nombre").text(v.Nombre),// Agrega la clase 'cliente-nombre'
+                                        //$("<div>").addClass("me-4").text(v.Tipo),
+                                        $("<div>").addClass("me-4 pedido-estado").text(v.Estado), // Agrega la clase 'pedido-estado'
+                                        //$("<div>").addClass("me-4").text("Estado: " + v.IdCompra),
+                                    )
+                                )
+                            );
+                            var accordion_collapse = $("<div>").attr({ "id": "collapse" + i }).addClass("accordion-collapse collapse");
+
+                            var accordion_body = $("<div>").addClass("accordion-body").append(
+                                $("<div>").addClass("row").append(
+                                    // Columna de datos del cliente
+                                    $("<div>").addClass("col-md-6 mb-4").append(
+                                        $("<div>").addClass("fw-bolder fs-5 text-decoration-underline").text("Datos del cliente"),
+                                        $("<div>").text("Nombre: " + v.Nombre),
+                                        $("<div>").text("Dirección "+v.Tipo+": " + v.Direccion),
+                                        $("<div>").text("Referencia: " + v.Referencia),
+                                        $("<div>").html("<b>Hora de Pedido: " + horaFormateada2 + "</b>"),
+                                        $("<div>").html("<b>Hora de Recojo: " + v.HoraRecojo + "</b>"),
+                                        $("<br><div>").text("Correo: " + v.Correo),
+                                        $("<div>").text("Teléfono: " + v.Telefono),
+                                        $("<br><div>").text("Forma de Pago: " + v.FormaPago),
+                                        $("<div>").text("Facturación: " + v.DocumentoFacturacion)
+                                    ),
+                                    // Columna de detalles de compra
+
+                                    $("<div>").addClass("col-md-6 mb-4").append(
+                                        $("<div>").addClass("fw-bolder fs-5 text-decoration-underline").text("Datos del Pedido - " + v.Tipo).append(
+                                        $("<div>").addClass("font-weight-bold text-decoration-underline").text(""))
+                                    )
+                                )
+                            );
+
+                            $.each(v.oDetalleCompra, function (x, dc) {
+                                var d_flex = $("<div>").addClass("compraHtml espaciado").append(
+                                    $("<div>").text(" " + dc.Cantidad + " x ").addClass("col-1"),
+                                    $("<div>").text(dc.oProducto.Nombre).addClass("col-9"),
+                                    /*$("<div>").text("pre Exttra:"+ dc.PrecioExtra).addClass("col-9"),*/
+                                    $("<div>").text("S/.  " + (dc.PrecioExtra).toFixed(2)).addClass("col-2 precioderecha")
+                                );
+
+                                var row = $("<div>").addClass("row");
+                                row.append(d_flex);
+
+
+
+                                if (dc.Adicionales != "" && dc.ObservacionesDC != " ") {
+                                    var adicionales = $("<div>").text(dc.Adicionales).addClass("col-12 espaciado");
+                                    var observaciones = $("<div>").html("<strong>Observaciones: </strong>" + dc.ObservacionesDC).addClass("col-12 espaciado");
+                                    row.append(adicionales, observaciones);
+
+                                }
+
+                                if (dc.Adicionales != "") {
+                                    var adicionales = $("<div>").text(dc.Adicionales).addClass("col-12 espaciado");
+                                    var observaciones = $("<div>").html("<strong>Observaciones: </strong>" + dc.ObservacionesDC).addClass("col-12 espaciado");
+                                    row.append(adicionales);
+                                }
+
+                                if (dc.ObservacionesDC != " ") {
+                                    var adicionales = $("<div>").text("Adicionales: " + dc.Adicionales).addClass("col-12 espaciado");
+                                    var observaciones = $("<div>").html("<strong>Observaciones: </strong>" + dc.ObservacionesDC).addClass("col-12 espaciado");
+                                    row.append(observaciones);
+                                }
+
+                                accordion_body.find(".col-md-6:last-child").append(row);
+                            });
+
+
+                            accordion_body.find(".col-md-6:last-child").append(
+                                $("<div>").addClass("p-2 bd-highlight").html("<strong>Costo de envío:</strong>  S/. " + precioEnvio.toFixed(2)),
+                                $("<div>").addClass("d-flex justify-content-between bg-light border").append(
+                                    $("<div>").addClass("p-2 bd-highlight").html("<strong>Total Importe:</strong>"),
+                                    $("<div>").addClass("p-2 bd-highlight").text("S/. " + v.Total.toFixed(2))
+                                )
+                            );
+
+                            var btnAceptar = $("<button>").addClass("btn btn-success me-2").text("Aceptar").on("click", function () {
+                                AceptarCompra(v.IdCompra, "Aceptado", v.Nombre, v.Correo);
+                            });
+
+
+
+                            var btnRechazar = $("<button>").addClass("btn btn-danger").text("Rechazar").on("click", function () {
+                                if (confirm('¿Está seguro de rechazar el pedido?')) {
+                                    rechazarCompra(v.IdCompra, "Rechazado", v.Nombre, v.Correo);
+                                }
+                            });
+
+                            accordion_collapse.append(accordion_body);
+                            accordion_item.append(accordion_header);
+                            accordion_item.append(accordion_collapse);
+                            accordion_body.append(
+                                // ... otros detalles
+                                $("<div>").addClass("d-flex justify-content-between").append(
+                                    btnRechazar,
+                                    btnAceptar
+                                )
+                            );
+                            $("#accordion_articulos").prepend(accordion_item);
+                        });
+
+
+                        $('.estado-btn').click(function () {
+                            var estadoSeleccionado = $(this).attr('data-estado').toLowerCase();
+                            $('.accordion-item').each(function () {
+                                var pedidoEstado = $(this).find('.pedido-estado').text().toLowerCase();
+                                if (estadoSeleccionado === '' || pedidoEstado === estadoSeleccionado) {
+                                    $(this).show();
+                                } else {
+                                    $(this).hide();
+                                }
+                            });
+                        });
+
+
+                        $('#btnBuscar').click(function () {                // Agregar el evento de búsqueda
+                            var searchTerm = $('#txtBusqueda').val().toLowerCase();
+                            $('.accordion-item').each(function () {
+                                var clienteNombre = $(this).find('.cliente-nombre').text().toLowerCase();
+                                if (clienteNombre.includes(searchTerm)) {
+                                    $(this).show();
+                                } else {
+                                    $(this).hide();
+                                }
+                            });
+                        });
+
+
+                        $('#btnBorrarFiltro').click(function () {
+                            // Recargar la página
+                            location.reload();
+                        });
+                        $('#btnFiltrarFechaIF').click(function () {
+                            // Obtener las fechas de inicio y fin ingresadas por el usuario
+                            var fechaInicio = $('#fechaInicio').val();
+                            var fechaFin = $('#fechaFin').val();
+
+
+                            // Recorrer todos los elementos con la clase .accordion-item
+                            $('.accordion-item').each(function () {
+                                var fechaCompraTextoFil = $(this).find('.fecha-texto').text();
+
+
+                                // Convertir las fechas a objetos Date
+                                var fechaInicioObj = new Date(fechaInicio);
+                                var fechaFinObj = new Date(fechaFin);
+                                var fechaCompraObj = new Date (fechaCompraTextoFil);
+
+
+
+                                // Verificar si la fecha del pedido está dentro del rango especificado
+                                if (fechaCompraObj >= fechaInicioObj && fechaCompraObj <= fechaFinObj) {
+                                    $(this).show(); // Mostrar el pedido si está dentro del rango
+                                } else {
+                                    $(this).hide(); // Ocultar el pedido si está fuera del rango
+                                }
+                            });
+                        });
+                    }
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+                    $(".modal-body").LoadingOverlay("show");
+                },
+            });
+        })
+
+        $(document).ready(function () {
+            // Establecer el intervalo de tiempo (en milisegundos)
+            var intervaloTiempo = 150000; // 60000 milisegundos = 1 minuto
+
+            setInterval(function () {
+                location.reload();
+            }, intervaloTiempo);
+        });
+
+        // Función para validar una fecha como objeto Date
+        function validarFechaComoObjeto(fecha) {
+            try {
+                var partesFecha = fecha.split('/');
+                var dia = parseInt(partesFecha[0], 10);
+                var mes = parseInt(partesFecha[1], 10) - 1; // Los meses en JavaScript van de 0 a 11
+                var año = parseInt(partesFecha[2], 10);
+                var fechaObjeto = new Date(año, mes, dia);
+                // Verificar si la fecha es válida
+                if (isNaN(fechaObjeto.getTime())) {
+                    return false; // La fecha es inválida
+                }
+                return true; // La fecha es válida
+            } catch (error) {
+                return false; // Hubo un error al crear el objeto Date, la fecha es inválida
+            }
+        }
+
+
+        function obtenerFechaActualEnFormatoDePedidos() {
+            var fechaActual = new Date();
+            var día = fechaActual.getDate();
+            var mes = fechaActual.getMonth() + 1; // +1 porque los meses comienzan desde 0
+            var año = fechaActual.getFullYear();
+            // Formatea día y mes sin ceros adicionales
+            if (día < 10) {
+                día = día.toString();
+            } else {
+                día = día.toString().padStart(2, '0');
+            }
+            if (mes < 10) {
+                mes = mes.toString();
+            } else {
+                mes = mes.toString().padStart(2, '0');
+            }
+            return día + '/' + mes + '/' + año;
+        }
+
+
+        function cambiarEstadoCompra(idCompra, nuevoEstado) {
+            $.ajax({
+                url: '@Url.Action("CambiarEstadoCompra", "Tienda")',
+                type: 'POST',
+                data: JSON.stringify({ idCompra: idCompra, nuevoEstado: nuevoEstado }),
+                contentType: 'application/json',
+                success: function (response) {
+
+                    location.reload();
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        }
+
+
+// Función para mostrar el mensaje de actualización
+function mostrarMensajeActualizacion() {
+    Swal.fire({
+        title: 'Enviando correo con estado del pedido...',
+        text: 'Por favor, espera un momento.',
+        icon: 'info',
+        showConfirmButton: false,
+        allowOutsideClick: false
+    });
+}
+
+// Función para mostrar el mensaje de éxito
+function mostrarMensajeExito() {
+    Swal.fire({
+        title: '¡Estado actualizado!',
+        text: 'El estado del pedido ha sido actualizado correctamente.',
+        icon: 'success',
+        showConfirmButton: false,
+        timer: 3000 // Tiempo en milisegundos (1.5 segundos)
+    });
+}
+
+// Función para aceptar una compra
+function AceptarCompra(idCompra, nuevoEstado, nombre, correo) {
+    mostrarMensajeActualizacion(); // Mostrar mensaje de actualización
+    $.ajax({
+        url: '@Url.Action("AceptarCompra", "Tienda")',
+        type: 'POST',
+        data: JSON.stringify({ idCompra: idCompra, nuevoEstado: nuevoEstado, nombre: nombre, correo: correo }),
+        contentType: 'application/json',
+        success: function (response) {
+            mostrarMensajeExito(); // Mostrar mensaje de éxito
+            location.reload();
+        },
+        error: function (error) {
+            console.log(error);
+            Swal.fire({
+                title: 'Error',
+                text: 'Hubo un error al actualizar el estado del pedido.',
+                icon: 'error',
+                confirmButtonText: 'Aceptar'
+            });
+        }
+    });
+}
+
+// Función para rechazar una compra
+function rechazarCompra(idCompra, nuevoEstado, nombre, correo) {
+    mostrarMensajeActualizacion(); // Mostrar mensaje de actualización
+    $.ajax({
+        url: '@Url.Action("RechazarCompra", "Tienda")',
+        type: 'POST',
+        data: JSON.stringify({ idCompra: idCompra, nuevoEstado: nuevoEstado, nombre: nombre, correo: correo }),
+        contentType: 'application/json',
+        success: function (response) {
+            mostrarMensajeExito(); // Mostrar mensaje de éxito
+            location.reload();
+        },
+        error: function (error) {
+            console.log(error);
+            Swal.fire({
+                title: 'Error',
+                text: 'Hubo un error al actualizar el estado del pedido.',
+                icon: 'error',
+                confirmButtonText: 'Aceptar'
+            });
+        }
+    });
+}
+
+
+
+
+        //AGREGADO 2
+        function obtenerPreciosPago() {
+            var total = 0;
+            $("input.input-cantidad").each(function (index) {
+                var idProducto = $(this).data("idproducto");
+                var precioTotalProducto = parseFloat(sessionStorage.getItem('precioTotalCarrito_' + idProducto));
+                var cantidad = parseInt($(this).val());
+                var precio = precioTotalProducto * cantidad;
+                total += precio;
+            });
+            $("#totalPagar").text("S/. " + total.toFixed(2)); // Utilizamos toFixed(2) para mostrar dos decimales en el total.
+        }
+
+        $(document).ready(function () {
+            jQuery.ajax({
+                url: '@Url.Action("ListarProducto", "Home")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+
+                    if (data.data != null) {
+                        $("#total-productos").text(data.data.length);
+                    }
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+                },
+            });
+
+             jQuery.ajax({
+                url: '@Url.Action("ListarMarca", "Home")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    if (data.data != null) {
+                        $("#total-marcas").text(data.data.length);
+                    }
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+
+                },
+            });
+
+             jQuery.ajax({
+                url: '@Url.Action("ListarCategoria", "Home")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                   if (data.data != null) {
+                        $("#total-categorias").text(data.data.length);
+                    }
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+
+                },
+            });
+
+
+        })
+    </script>
+
+}

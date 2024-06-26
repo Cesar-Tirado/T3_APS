@@ -1,0 +1,270 @@
+﻿
+@{
+    ViewBag.Title = "Reserva";
+    Layout = "~/Views/Shared/_Layout_Tienda.cshtml";
+}
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr@4.6.9/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.9/dist/flatpickr.min.js"></script>
+</head>
+
+<style>
+    * {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+
+    .custom-button {
+        width: 250px;
+        height: 45px;
+        text-align: center;
+        font-size: 20px;
+        list-style-type: none;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top py-1 py-lg-0 px-lg-5">
+        <div class="container">
+            <div class="container-fluid p-0">
+                <nav class="navbar navbar-expand-lg navbar-light sticky-top py-0 py-lg-2 px-lg-5">
+                    <a class="navbar-brand ml-lg-3">
+                        <img class="w-sm-120" width="160" src="@Url.Content("~/Imagenes/LongHorn/650x150 Logo.png")" />
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </nav>
+                    
+    <section class="d-flex justify-content-center ">
+                        
+        <div class="container bg-light shadow-sm p-5">
+
+            <h2>Reserva </h2>
+            <div class="container mt-2">
+                <h6>Selecciona tu local favorito Long Horn</h6>
+                <div id="botonLocales" class="btn-group btn-group-vertical justify-content-center  mb-4" data-toggle="buttons">                    
+                </div>
+
+                <br>
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                        <h6>Selecciona una Fecha</h6>
+                        <div class="flatpickr" id="datePicker"></div>
+                    </div>
+
+                    <div class="col-12 col-md-3 mt-2 mt-md-0">
+                        <h6>Selecciona una hora</h6>
+                        <div class="btn-group btn-group-vertical" role="group" aria-label="Basic radio toggle button group" id="hourButtons">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="mt-3">
+                <form id="reservationForm">
+                    <h5>Detalles de la reserva</h5>
+                    <fieldset>
+                        @*<legend>Datos personales</legend>*@
+                        <div class="row">
+                            <div class="col-12 col-sm-8">
+                                <label for="names">Nombre Completo</label>
+                                <input type="text" class="form-control" id="names" required>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <label for="peopleCount">Cantidad Personas</label>
+                                <input type="number" class="form-control" id="peopleCount" required>
+                            </div>
+                        </div>                        
+                    </fieldset>
+                    <fieldset>
+                        <div class="row">
+                            <div class="col-12 col-sm-8">
+                                <label for="email">Correo</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <label for="cellphone">Celular</label>
+                                <input type="tel" class="form-control" id="cellphone" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="row">
+                        <div class="col-12 col-sm-8">
+                            <label for="motivoType">Motivo</label>
+                            <select class="form-control" id="motivoType" required>
+                                <option value="Aniversario">Aniversario</option>
+                                <option value="Cumpleaños">Cumpleaños</option>
+                                <option value="Celebración día festivo">Celebración día festivo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="note">Observación</label>
+                        <textarea class="form-control" id="note"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger" id="BtnReservar">Enviar Reserva</button>
+                </form>
+            </section>
+
+        </div>
+    </section>
+</body>
+
+
+@section scripts{
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $("#reservationForm").hide();
+
+            jQuery.ajax({
+                url: '@Url.Action("ListarLocales", "Home")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    console.log("data:");
+                    console.log(data.data);
+                    $('#botonLocales').empty();
+                    data.data.forEach(function (ubicacion) {
+                        var label = $('<label>', { class: 'btn btn-outline-danger custom-button ml-2' });
+                        var input = $('<input>', {
+                            type: 'radio',
+                            name: 'btnradio',
+                            autocomplete: 'off',
+                            value: ubicacion.Id,
+                            class: 'location-radio'
+                        }).appendTo(label);
+                        label.append(ubicacion.NombreLocal);
+                        $('#botonLocales').append(label);
+                    });
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+                },
+            });
+
+            $(document).on('click', '.location-radio', function (event) {
+                var valorSeleccionado2 = $("input[name='btnradio']:checked").val();
+                var valorSeleccionado = $(this).val(); 
+                var val1 = "2020"; 
+                var val2 = "10"; 
+
+                console.log("valorSeleccionado: " + valorSeleccionado);
+                console.log("valorSeleccionado2: " + valorSeleccionado2);
+                jQuery.ajax({
+                    url: '@Url.Action("ObtenerFecha", "Home")',
+                    type: "GET",
+                    data: { IdReservaLocal: valorSeleccionado, Anio: val1, Mes: val2 },
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        console.log("Respuesta del servidor: ", data);
+                    },
+                    error: function (error) {
+                        console.log("Error: ", error);
+                    }
+                });
+            });
+
+
+
+            const datePicker = flatpickr("#datePicker", {
+                dateFormat: "Y-m-d",
+                locale: "es",
+                defaultDate: "today", // Muestra el calendario al cargar la página
+                inline: true, // Muestra el calendario
+                minDate: "today",
+                onChange: function (selectedDates, dateStr, instance) {
+                    const timeSelection = document.getElementById("timeSelection");
+                    timeSelection.style.display = "block";
+                }
+            });
+
+            function generateHourOptions() {
+                const hourButtons = document.getElementById('hourButtons');
+                const verticalButtonGroup = document.createElement('div');
+                verticalButtonGroup.className = 'btn-group btn-group-vertical';
+
+                for (let hour = 12; hour <= 20; hour++) {
+                    const button = document.createElement('button');
+                    button.type = 'button';
+                    button.className = 'btn btn-outline-secondary';
+                    button.textContent = `${hour}:00 PM`;
+                    verticalButtonGroup.appendChild(button);
+                }
+                hourButtons.appendChild(verticalButtonGroup);
+            }
+
+        generateHourOptions();
+
+        flatpickr("#datetimeInput", {
+            enableTime: true,
+            dateFormat: "Y-m-d H:i",
+            minDate: "today",
+            maxDate: new Date().setHours(20, 0, 0, 0), // 8:00 PM
+            minuteIncrement: 15,
+            defaultDate: new Date()
+        });
+
+
+        $("#BtnReservar").on("click", function (e) {
+
+            var localSeleccionado = $('input[name="btnradio"]:checked').val();
+            var fechaSeleccionada = $("#datePicker").val();
+            var horaSeleccionada = $('input[name="hourradio"]:checked').val();
+
+            var request = {
+                oReserva: {
+                    Local: localSeleccionado,
+                    Fecha: fechaSeleccionada,
+                    Hora: horaSeleccionada,
+                    NombreCliente: $("#names").val(),
+                    TipoDocumento: $("#documentType").val(),
+                    Cantidad: $("#peopleCount").val(),
+                    NumeroDocumento: $("#documentNumber").val(),
+                    Correo: $("#email").val(),
+                    Celular: $("#cellphone").val(),
+                    Motivo: $("#motivoType").val(),
+                    Observacion: $("#note").val(),
+                }
+            };
+
+            jQuery.ajax({
+                url: '@Url.Action("Registrar", "Reserva")',
+                type: "POST",
+                data: JSON.stringify(request),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    console.log(data);
+                },
+                error: function (error) {
+                    console.log(error);
+                },
+                beforeSend: function () {
+                    console.log(request);
+                },
+            });
+
+        })
+
+
+    });
+
+
+    </script>
+
+}

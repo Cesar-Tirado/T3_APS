@@ -1,0 +1,100 @@
+﻿
+@{
+    ViewBag.Title = "Iniciar Sesión";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="icon" href="~/Imagenes/Editables/IconoWeb.png" />
+    <meta name="viewport" content="width=device-width" />
+    <title>RestoManage</title>
+    @Styles.Render("~/Content/css")
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body class="" style="background-color: #182546; ">
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Iniciar Sesión</h3></div>
+                                <div class="card-body">
+                                    <form action="@Url.Content("~/Login/Index")" method="post">
+                                        @Html.AntiForgeryToken()
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="inputEmail" name="NCorreo" type="email" placeholder="name@example.com" @*value="pruebas@gmail.com"*@ value="" />
+                                            <label for="inputEmail">Correo</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" id="inputPassword" name="NContrasena" type="password" placeholder="Contraseña" @*value="12345"*@ autocomplete="off" value="" />
+                                            <label for="inputPassword">Contraseña</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            @{if (ViewBag.Error != null)
+                                                {
+                                                    <div class="alert alert-danger" role="alert">
+                                                        @ViewBag.Error
+                                                    </div>
+                                                }
+                                            }
+                                        </div>
+                                        <div class="d-grid gap-2">
+                                            <button class="btn" style="background-color: #080d28; color: white;" type="submit">
+                                                <i class="fas fa-sign-in-alt"></i> Ingresar
+                                            </button>
+                                        </div>
+
+
+
+
+                                    </form>
+
+                                </div>
+
+                                <div class="card-footer text-center py-3">
+                                    <div class="small"><a id="publicidad_cuenta" href="@Url.Action("Registrarse","Login")">Necesitas una cuenta? Registrate!</a></div>
+                                </div>
+
+                                <div class="col-auto card-footer text-center py-3" id="botonI">
+                                    <a id="z" class="btn btn-block" style="background-color: #feaf39; color:white;" href="@Url.Action("Index", "Public")">
+                                        <i class="fas fa-arrow-left"></i> Volver a la tienda
+                                    </a>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+       
+        <div id="layoutAuthentication_footer">
+            <footer class="py-4 bg-light mt-auto">
+                <div class="container-fluid px-4">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">Copyright &copy; RestoManage</div>
+                        <div>
+                            <a href="#">Privacy Policy</a>
+                            &middot;
+                            <a href="#">Terms &amp; Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script>
+        
+    </script>
+</body>
+</html>

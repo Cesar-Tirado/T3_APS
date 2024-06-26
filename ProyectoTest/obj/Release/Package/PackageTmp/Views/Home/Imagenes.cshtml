@@ -1,0 +1,210 @@
+﻿
+@{
+    ViewBag.Title = "Imagenes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table me-1"></i> Imagenes
+    </div>
+    <div class="card-body">
+        @*<div class="row">
+                <div class="col-sm-12">
+                    <button class="btn btn-success" type="button" onclick="abrirModal(null)">Crear Nuevo</button>
+                </div>
+            </div>*@
+
+        <hr />
+        <table id="tabla2" class="display responsive" style="width:100%">
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Ruta</th>
+                    <th>Estado</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+@*MODAL*@
+<div class="modal fade" id="FormModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title" id="exampleModalLabel">Cambiar Imagen</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label id="lblid" for="cboEstado">N°</label>
+                            <input id="txtid" type="hidden" value="0" />
+                        </div>
+                    </div>
+                </div>
+                <form id="formNivel">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="mb-2">
+                                <img id="img_producto" height="198" width="200" class="border border-dark" />
+                            </div>
+                            <div class="mb-2">
+                                <input class="form-control" type="file" id="imgproducto" onchange="readURL(this);">
+                            </div>
+                        </div>
+                    </div>                   
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label for="cboEstado">Estado</label>
+                                <select id="cboEstado" class="form-select">
+                                    <option value="1">Activo</option>
+                                    <option value="0">No Activo</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" onclick="Guardar()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+
+    <script>
+        var tabladata;
+
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#img_producto')
+                        .attr('src', e.target.result)
+                        .width(200)
+                        .height(198);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $(document).ready(function () {
+
+            tabladata = $('#tabla2').DataTable({
+            responsive: true,
+            "ajax": {
+                "url": '@Url.Action("ListarImagenesNuevo", "Home")',
+                "type": "GET",
+                "datatype": "json"
+            },
+            "columns": [
+                { "data": "Id" },
+                { "data": "RutaImagen" },
+                { "data": "Activo", "render": function (data) {
+                    if (data) {
+                        return '<span class="badge bg-success">Activo</span>'
+                    } else {
+                        return '<span class="badge bg-danger">No Activo</span>'
+                    }
+                }},
+                // Otros campos que quieras mostrar
+                {
+                    "data": "Id", "render": function (data, type, row, meta) {
+                        return $("<button>").addClass("btn btn-primary btn-editar btn-sm").append(
+                            $("<i>").addClass("fas fa-pen")
+                        ).attr({ "data-informacion": JSON.stringify(row) })[0].outerHTML;
+                    },
+                    "width": "90px"
+                }
+            ],
+            "language": {
+                "url": "//cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
+            }
+        });
+
+
+            //2
+            $(document).on('click', '.btn-editar', function (event) {
+                var json = $(this).data("informacion")
+
+                abrirModal2(json)
+            });
+
+            function abrirModal2(json) {
+                $("#img_producto").attr({ "src": "" });
+                $("#cboEstado").val(1);
+                $("#lblid").text("N°");
+                $("#txtid").val(1);
+
+                if (json != null) {
+                    $("#txtid").val(json.Id);
+                    $("#img_producto").attr({ "src": "data:image/" + json.extension + ";base64," + json.base64 });
+                    $("#txtCierreR").val(json.HoraCierreR);
+                    $("#cboEstado").val(json.Activo == true ? 1 : 0);
+                    $("#lblid").text("N°"+json.Id);
+                }
+                $('#FormModal2').modal('show');
+            }
+
+
+        });
+
+        function Guardar() {
+            var ImagenSeleccionada = ($("#imgproducto"))[0].files[0];
+
+
+            var objeto= {
+
+                Id: parseInt($("#txtid").val()),
+                RutaImagen: "",
+                Activo: parseInt($("#cboEstado").val()) == 1 ? true : false
+
+
+            }
+
+            var request = new FormData();
+
+            request.append("imagenArchivo", ImagenSeleccionada);
+            request.append("objeto", JSON.stringify(objeto));
+
+             jQuery.ajax({
+                 url: '@Url.Action("GuardarImagenInicial", "Home")',
+                 type: "POST",
+                 data: request,
+                 processData: false,
+                 contentType: false,
+                 success: function (data) {
+
+                     if (data.resultado) {
+                         tabladata.ajax.reload();
+                         $('#FormModal2').modal('hide');
+                     } else {
+                         alert("No se pudo guardar los cambios")
+                     }
+                 },
+                 error: function (error) {
+                     console.log(error)
+                 },
+                 beforeSend: function () {
+
+                 },
+             });
+        }
+
+    </script>
+}
+

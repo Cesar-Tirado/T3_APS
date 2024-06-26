@@ -1,0 +1,21 @@
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\Utilidad\bin\Debug\Utilidad.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\Utilidad\bin\Debug\Utilidad.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\Utilidad\obj\Debug\Utilidad.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\Utilidad\obj\Debug\Utilidad.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\Utilidad\obj\Debug\Utilidad.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\Utilidad\obj\Debug\Utilidad.pdb
+
+D:\JK Empresa\Proyecto JK\Ecommerce\Utilidad\bin\Debug\Utilidad.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\Utilidad\bin\Debug\Utilidad.pdb
+D:\JK Empresa\Proyecto JK\Ecommerce\Utilidad\obj\Debug\Utilidad.csproj.AssemblyReference.cache
+D:\JK Empresa\Proyecto JK\Ecommerce\Utilidad\obj\Debug\Utilidad.csproj.CoreCompileInputs.cache
+D:\JK Empresa\Proyecto JK\Ecommerce\Utilidad\obj\Debug\Utilidad.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\Utilidad\obj\Debug\Utilidad.pdb
+
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\Utilidad\bin\Debug\Utilidad.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\Utilidad\bin\Debug\Utilidad.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\Utilidad\obj\Debug\Utilidad.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\Utilidad\obj\Debug\Utilidad.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\Utilidad\obj\Debug\Utilidad.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\Utilidad\obj\Debug\Utilidad.pdb
+

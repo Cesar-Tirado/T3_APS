@@ -1,0 +1,633 @@
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\csc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\csc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\csc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\csi.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\csi.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\csi.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTestProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\System.Buffers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\System.Memory.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\ProyectoTest\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\roslyn\vbc.exe
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\roslyn\vbc.exe.config
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\roslyn\vbc.rsp
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\roslyn\VBCSCompiler.exe
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\roslyn\VBCSCompiler.exe.config
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\Antlr3.Runtime.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\Microsoft.Web.Infrastructure.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\Newtonsoft.Json.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.Helpers.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.Mvc.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.Optimization.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.Razor.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Deployment.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.WebPages.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Razor.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\WebGrease.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\Newtonsoft.Json.xml
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.Helpers.xml
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.Mvc.xml
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.Razor.xml
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.WebPages.xml
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Deployment.xml
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Razor.xml
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\System.Web.Optimization.xml
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\Antlr3.Runtime.pdb
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\es\System.Web.Helpers.resources.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\es\System.Web.Mvc.resources.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\es\System.Web.Razor.resources.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.resources.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\bin\es\System.Web.Optimization.resources.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.AssemblyReference.cache
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.CoreCompileInputs.cache
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.CopyComplete
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.dll
+D:\JK Empresa\Proyecto JK\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.pdb
+=======
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\ProyectoTest.dll.config
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\ProyectoTest.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\ProyectoTest.pdb
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csc.exe
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csc.exe.config
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csc.rsp
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csi.exe
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csi.exe.config
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csi.rsp
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.targets
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Buffers.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Collections.Immutable.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Memory.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Numerics.Vectors.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Reflection.Metadata.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\vbc.exe
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\vbc.exe.config
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\vbc.rsp
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\VBCSCompiler.exe
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\VBCSCompiler.exe.config
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\Antlr3.Runtime.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\Microsoft.Web.Infrastructure.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\Newtonsoft.Json.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Helpers.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Mvc.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Optimization.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Razor.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.Deployment.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.Razor.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\WebGrease.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\Newtonsoft.Json.xml
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Helpers.xml
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Mvc.xml
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Razor.xml
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.xml
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.Deployment.xml
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.Razor.xml
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Optimization.xml
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\Antlr3.Runtime.pdb
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.Helpers.resources.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.Mvc.resources.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.Razor.resources.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.WebPages.resources.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.Optimization.resources.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.csproj.AssemblyReference.cache
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.csproj.CoreCompileInputs.cache
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.csproj.CopyComplete
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.dll
+D:\JK Empresa\Proyecto JK\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\ProyectoTest.dll.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csi.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csi.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\csi.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Buffers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Memory.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\vbc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\vbc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\vbc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\Antlr3.Runtime.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\Newtonsoft.Json.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Helpers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Mvc.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Optimization.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\WebGrease.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\Newtonsoft.Json.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Helpers.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Mvc.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\System.Web.Optimization.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\Antlr3.Runtime.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.Helpers.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.Mvc.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.WebPages.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\bin\es\System.Web.Optimization.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.csproj.CopyComplete
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\026_SistemaCarritoCompras\ProyectoTest\obj\Debug\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\ProyectoTest.dll.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\csc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\csc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\csc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\csi.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\csi.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\csi.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\System.Buffers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\System.Memory.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\vbc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\vbc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\vbc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\Antlr3.Runtime.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\Newtonsoft.Json.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.Helpers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.Mvc.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.Optimization.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.WebPages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\WebGrease.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\Newtonsoft.Json.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.Helpers.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.Mvc.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.WebPages.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\System.Web.Optimization.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\Antlr3.Runtime.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\es\System.Web.Helpers.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\es\System.Web.Mvc.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\es\System.Web.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\es\System.Web.WebPages.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\bin\es\System.Web.Optimization.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\obj\Debug\ProyectoTest.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\obj\Debug\ProyectoTest.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\obj\Debug\ProyectoTest.csproj.CopyComplete
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\obj\Debug\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\Ecommerce_LongHorn\ProyectoTest\obj\Debug\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\ProyectoTest.dll.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csi.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csi.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csi.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Buffers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Memory.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\vbc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\vbc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\vbc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Antlr3.Runtime.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Newtonsoft.Json.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Helpers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Mvc.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Optimization.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\WebGrease.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Newtonsoft.Json.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Helpers.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Mvc.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Optimization.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Antlr3.Runtime.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Helpers.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Mvc.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Optimization.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.CopyComplete
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Webs\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\ProyectoTest.dll.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csi.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csi.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csi.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Buffers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Memory.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\vbc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\vbc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\vbc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Antlr3.Runtime.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Newtonsoft.Json.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Helpers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Mvc.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Optimization.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\WebGrease.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Newtonsoft.Json.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Helpers.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Mvc.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Optimization.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Antlr3.Runtime.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Helpers.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Mvc.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Optimization.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.CopyComplete
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\ProyectoTest.dll.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csi.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csi.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\csi.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Buffers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Memory.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\vbc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\vbc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\vbc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Antlr3.Runtime.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\BouncyCastle.Crypto.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\itextsharp.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Newtonsoft.Json.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Net.Http.Formatting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Helpers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Http.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Mvc.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Optimization.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\WebGrease.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\itextsharp.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Newtonsoft.Json.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Net.Http.Formatting.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Helpers.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Http.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Mvc.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\System.Web.Optimization.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\Antlr3.Runtime.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Helpers.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Mvc.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\bin\es\System.Web.Optimization.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.csproj.CopyComplete
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\PRUEBAS_BACKUPS\LongHorn_Carrito\Ecommerce\ProyectoTest\obj\Debug\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\ProyectoTest.dll.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\csc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\csc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\csc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\csi.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\csi.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\csi.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Buffers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Memory.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\vbc.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\vbc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\vbc.rsp
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\Antlr3.Runtime.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\BouncyCastle.Crypto.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\itextsharp.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\Newtonsoft.Json.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Net.Http.Formatting.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Helpers.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Http.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Mvc.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Optimization.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\WebGrease.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\itextsharp.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\Newtonsoft.Json.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Net.Http.Formatting.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Helpers.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Http.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Mvc.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\System.Web.Optimization.xml
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\Antlr3.Runtime.pdb
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\es\System.Web.Helpers.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\es\System.Web.Mvc.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\es\System.Web.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\es\System.Web.WebPages.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\bin\es\System.Web.Optimization.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\obj\Debug\ProyectoTest.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\obj\Debug\ProyectoTest.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\obj\Debug\Proyecto.B8EEF35F.Up2Date
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\obj\Debug\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Proyectos\Míos\RESTOMANAGE\ProyectoTest\obj\Debug\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\ProyectoTest.dll.config
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\ProyectoTest.pdb
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\csc.exe
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\csc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\csc.rsp
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\csi.exe
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\csi.exe.config
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\csi.rsp
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Buffers.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Memory.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\vbc.exe
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\vbc.exe.config
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\vbc.rsp
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\VBCSCompiler.exe
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\Antlr3.Runtime.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\BouncyCastle.Crypto.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\itextsharp.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\Newtonsoft.Json.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Net.Http.Formatting.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Helpers.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Http.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Mvc.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Optimization.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.Razor.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\WebGrease.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\itextsharp.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\Newtonsoft.Json.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Net.Http.Formatting.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Helpers.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Http.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Mvc.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.WebPages.Razor.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\System.Web.Optimization.xml
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\Antlr3.Runtime.pdb
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\es\System.Web.Helpers.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\es\System.Web.Mvc.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\es\System.Web.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\es\System.Web.WebPages.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\bin\es\System.Web.Optimization.resources.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\obj\Debug\ProyectoTest.csproj.AssemblyReference.cache
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\obj\Debug\ProyectoTest.csproj.CoreCompileInputs.cache
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\obj\Debug\Proyecto.B8EEF35F.Up2Date
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\obj\Debug\ProyectoTest.dll
+C:\Users\cesar\OneDrive\Documentos\Trabajos\ADM . PROYECTOS\RESTOMANAGE\ProyectoTest\obj\Debug\ProyectoTest.pdb

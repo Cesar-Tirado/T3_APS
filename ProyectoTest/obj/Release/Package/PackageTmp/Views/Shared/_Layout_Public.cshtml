@@ -1,0 +1,92 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <link rel="icon" href="~/Imagenes/Editables/IconoWeb.png" />
+    <meta name="viewport" content="width=device-width" />
+    <title>RestoManage</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/PluginsCSS")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+
+
+<body>
+
+ 
+
+    <main class="container-fluid p-0 m-0">
+        @RenderBody()
+    </main>
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Content/PluginsJS")
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            obtenerCantidad();
+        })
+
+        function obtenerCantidad() {
+            jQuery.ajax({
+                url: '@Url.Action("CantidadCarrito", "Tienda")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+
+                    $(".contador-carrito").text(data.respuesta);
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+                },
+            });
+
+        }
+        $(document).on('click', '.btn-agregar-carrito', function (event) {
+            var request = {
+                oCarrito: {
+                    oProducto: { IdProducto: $(this).data("idproducto")  }
+                }
+            }
+
+            jQuery.ajax({
+                url: '@Url.Action("InsertarCarrito", "Tienda")',
+                type: "POST",
+                data: JSON.stringify(request),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    var actual = parseInt($(".contador-carrito").text());
+                    if (data.respuesta != 0) {
+                        actual = actual + 1;
+                        $(".contador-carrito").text(actual);
+                        $('#toast-carrito').toast('show');
+                    }
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+
+                },
+            });
+
+        });
+
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
